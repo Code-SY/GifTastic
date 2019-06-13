@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Collection</title>
+
+    <!-- Added a link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Added a link to Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Added a link to custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row text-center">
+            <div id="title" class="col">
+                GIFTASTIC
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-9">
+                <div id="topicButtons">
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Form -->
+        <form id="topic-form" autocomplete="off">
+            <div class="row">
+                <!-- Text field -->
+                <input class="col-10" type="text" id="topic-input" placeholder="Search GIFs...">
+                <!-- Submit button -->
+                <input class="col-2 mx-auto" type="submit" value="Submit" id="addTopic">
+            </div>
+        </form>
+        <br><br>
+        <div class="row">
+            <div class="col-sm">
+
+                <div id="topics-container">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Link to JS file -->
+    <script src="home.js"></script>
+    <br><br><br><br><br><br><br><br>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  /*background-color:rgb(152, 248, 195); */
+  background-image: url(https://i.pinimg.com/originals/07/67/6d/07676d4017a1bae980d0530d7343c7bc.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cbaddfe0;
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: 750;
+  font-size: 5.5em;
+  color: rgb(50, 139, 72);
+}
+
+button {
+  font-family: 'interface', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(124, 59, 216);
+  padding: 9px 20px;
+  margin: 2px;
+  border: 1px solid#a866ebe2;
+}
+
+button:hover {
+  color: rgba(87, 6, 124, 0.892);
+  background-color: rgba(239, 124, 245, 0.92);
+  text-decoration: none;
+}
+
+input[type=text] {
+  height: 38px;
+  color: rgb(61, 48, 48);
+}
+
+input[type=text]::placeholder {
+  color: rgb(223, 180, 180);
+}
+
+input[type=submit] {
+  height: 39.5px;
+  color: #fff;
+  background-color: rgb(79, 153, 89);
+}
+
+input[type=submit]:hover {
+  background-color: rgba(29, 143, 236, 0.9);
+  color: rgb(235, 245, 94);
+}
+
+p {
+  color: #05055ca3;
+  font-family: interface, "Helvetica Neue", sans-serif;
+  margin-bottom: 3px;
+}
+
+.gifs {
+  display: inline-grid;
+  margin: 5px;
+}
